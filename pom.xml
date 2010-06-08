@@ -18,8 +18,8 @@
         on your machine. They are checked-out on the TeamCity server.
         Remember to add a SCM connection to TeamCity when adding a module here.
         -->
-        <module>beam-meris-mepix</module>
-        <module>beam-meris-aatsr-synergy</module>
+        <module>beam-meris-glint</module>
+        <module>beam-meris-case2</module>
     </modules>
 
 
