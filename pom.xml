@@ -12,6 +12,7 @@
         The purpose of this project is to aggregate multiple BEAM related projects for easier
         build configuration on the TeamCity build server.
     </description>
+    
     <modules>
         <!--
         It is OK if your IDE marks the modules as error. They don't need to be existent locally
@@ -22,6 +23,7 @@
         <module>flint</module>
         <module>beam-meris-glint</module>
         <module>beam-meris-case2</module>
+        <module>beam-idepix</module>
     </modules>
 
 
