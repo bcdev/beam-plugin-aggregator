@@ -24,7 +24,48 @@
         <module>beam-meris-glint</module>
         <module>beam-meris-case2</module>
         <module>beam-idepix</module>
+        <module>beam-meris-icol</module>
     </modules>
 
+
+    <repositories>
+        <repository>
+            <id>bc-mvn-repo-http</id>
+            <name>Public Maven Repository at Brockmann Consult</name>
+            <url>http://www.brockmann-consult.de/mvn/os</url>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>gt-primary</id>
+            <name>Primary GeoTools Maven Repository</name>
+            <url>http://maven.geotools.fr/repository</url>
+        </repository>
+        <repository>
+            <id>nativelibs4java-repo</id>
+            <url>http://nativelibs4java.sourceforge.net/maven</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>bc-mvn-repo-public</id>
+            <name>Public Maven Repository at Brockmann Consult</name>
+            <url>scp://www.brockmann-consult.de/var/www/www.brockmann-consult.de/mvn/os</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>bc-mvn-repo-public</id>
+            <name>Public Maven Snapshot Repository at Brockmann Consult</name>
+            <url>scp://www.brockmann-consult.de/var/www/www.brockmann-consult.de/mvn/os</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
