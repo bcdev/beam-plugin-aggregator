@@ -5,4 +5,6 @@ build configuration on our TeamCity build server.
 
 Plugins which shall be aggregated must be added as module to the pom.xml file.
 For each module a SCM connection must be configured within the related projected on the TeamCity server.
-So remember to add a SCM connection to TeamCity when adding a module to the pom.
+Also an additional build step, which builds the assembly, must be added for the new module.
+Finally the assembly must be added to the list of artifact paths.
+The already existing modules may serve as template.
