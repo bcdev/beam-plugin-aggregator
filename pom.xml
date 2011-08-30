@@ -25,6 +25,7 @@
         <module>beam-meris-case2</module>
         <module>beam-idepix</module>
         <module>beam-meris-icol</module>
+        <module>beam-watermask</module>        
     </modules>
 
 
