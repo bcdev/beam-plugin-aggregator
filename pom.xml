@@ -12,20 +12,20 @@
         The purpose of this project is to aggregate multiple BEAM related projects for easier
         build configuration on the TeamCity build server.
     </description>
-    
+
     <modules>
         <!--
         It is OK if your IDE marks the modules as error. They don't need to be existent locally
         on your machine. They are checked-out on the TeamCity server.
         Remember to add a SCM connection to TeamCity when adding a module here.
         -->
-        <module>beam-watermask</module>        
+        <module>beam-watermask</module>
         <module>beam-meris-core</module>
         <module>flint</module>
         <module>beam-meris-glint</module>
         <module>beam-meris-case2</module>
         <module>beam-idepix</module>
-        <module>beam-meris-icol</module>        
+        <module>beam-meris-icol</module>
     </modules>
 
 
@@ -64,13 +64,21 @@
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
-    
+
     <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.7</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
         <extensions>
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
                 <artifactId>wagon-ssh</artifactId>
-                <version>1.0</version>
+                <version>1.0-beta-7</version>
             </extension>
         </extensions>
     </build>
