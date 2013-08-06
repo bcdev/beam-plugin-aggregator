@@ -77,7 +77,7 @@
                     <fork>false</fork>
                 </configuration>
             </plugin>
-        <plugins>
+        </plugins>
         <pluginManagement>
             <plugins>
                 <plugin>
