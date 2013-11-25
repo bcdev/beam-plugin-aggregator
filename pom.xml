@@ -26,6 +26,10 @@
         <module>beam-meris-case2</module>
         <module>beam-idepix</module>
         <module>beam-meris-icol</module>
+        <module>beam-meris-veg</module>
+        <module>beam-wew-water</module>
+        <module>jrc-fapar</module>
+        <module>mssl-stereomatcher</module>
     </modules>
 
 
