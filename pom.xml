@@ -21,7 +21,6 @@
         -->
         <module>beam-watermask</module>
         <module>beam-meris-core</module>
-        <module>beam-meris-aatsr-flint</module>
         <module>beam-meris-glint</module>
         <module>beam-meris-case2</module>
         <module>beam-idepix</module>
